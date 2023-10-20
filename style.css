@@ -1,0 +1,33 @@
+.main{
+	background: #f0f0f0;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+.main h1{text-align: center; width: 100%}
+
+.blueT img{
+	width: 40%;
+	height: 40%;
+	border-radius: 10px;
+	border: 4px navy solid;
+}
+.aiModels{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+	justify-content: center;
+}
+.aiModels p{
+	width: 100%;
+
+}
+.male, .female{width: 47%; min-width: 390px}
+.male img, .female img{
+	width: 47%;
+	min-width: 390px;
+	border-radius: 10px;
+}
